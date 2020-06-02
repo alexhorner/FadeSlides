@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/index.css" />
+    </head>
+
+    <body>
+        <div id="slideshow">
+            <img class="visible" src="/img/1.jpg" /><!--First image must have the visible class-->
+            <img src="/img/2.jpg" />
+            <img src="/img/3.jpg" />
+        </div>
+        <button onclick="backwardSlide();">&lt;</button>
+        <span id="slideshow-position"></span>
+        <button onclick="forwardSlide();">&gt;</button>
+        <input type="checkbox" checked id="slideshow-auto" />
+        <label for="slideshow-auto">Automatic</label>
+    </body>
+    <script src="/index.js"></script>
+</html>
